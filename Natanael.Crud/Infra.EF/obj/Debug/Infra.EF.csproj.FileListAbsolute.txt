@@ -1,0 +1,14 @@
+C:\Users\Natanael\source\repos\natanaelsantosbr\mvc-crud-cliente\Natanael.Crud\Infra.EF\bin\Debug\Infra.EF.dll.config
+C:\Users\Natanael\source\repos\natanaelsantosbr\mvc-crud-cliente\Natanael.Crud\Infra.EF\bin\Debug\Infra.EF.dll
+C:\Users\Natanael\source\repos\natanaelsantosbr\mvc-crud-cliente\Natanael.Crud\Infra.EF\bin\Debug\Infra.EF.pdb
+C:\Users\Natanael\source\repos\natanaelsantosbr\mvc-crud-cliente\Natanael.Crud\Infra.EF\bin\Debug\EntityFramework.dll
+C:\Users\Natanael\source\repos\natanaelsantosbr\mvc-crud-cliente\Natanael.Crud\Infra.EF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Natanael\source\repos\natanaelsantosbr\mvc-crud-cliente\Natanael.Crud\Infra.EF\bin\Debug\Natanael.Dominio.dll
+C:\Users\Natanael\source\repos\natanaelsantosbr\mvc-crud-cliente\Natanael.Crud\Infra.EF\bin\Debug\Natanael.Dominio.pdb
+C:\Users\Natanael\source\repos\natanaelsantosbr\mvc-crud-cliente\Natanael.Crud\Infra.EF\bin\Debug\EntityFramework.xml
+C:\Users\Natanael\source\repos\natanaelsantosbr\mvc-crud-cliente\Natanael.Crud\Infra.EF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Natanael\source\repos\natanaelsantosbr\mvc-crud-cliente\Natanael.Crud\Infra.EF\obj\Debug\Infra.EF.csprojAssemblyReference.cache
+C:\Users\Natanael\source\repos\natanaelsantosbr\mvc-crud-cliente\Natanael.Crud\Infra.EF\obj\Debug\Infra.EF.csproj.CoreCompileInputs.cache
+C:\Users\Natanael\source\repos\natanaelsantosbr\mvc-crud-cliente\Natanael.Crud\Infra.EF\obj\Debug\Infra.EF.csproj.CopyComplete
+C:\Users\Natanael\source\repos\natanaelsantosbr\mvc-crud-cliente\Natanael.Crud\Infra.EF\obj\Debug\Infra.EF.dll
+C:\Users\Natanael\source\repos\natanaelsantosbr\mvc-crud-cliente\Natanael.Crud\Infra.EF\obj\Debug\Infra.EF.pdb

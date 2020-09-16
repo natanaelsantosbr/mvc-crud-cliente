@@ -1,0 +1,14 @@
+C:\Users\Natanael\source\repos\natanaelsantosbr\mvc-crud-cliente\Natanael.Crud\Natanael.Aplicacao\bin\Debug\Natanael.Aplicacao.dll
+C:\Users\Natanael\source\repos\natanaelsantosbr\mvc-crud-cliente\Natanael.Crud\Natanael.Aplicacao\bin\Debug\Natanael.Aplicacao.pdb
+C:\Users\Natanael\source\repos\natanaelsantosbr\mvc-crud-cliente\Natanael.Crud\Natanael.Aplicacao\bin\Debug\Infra.EF.dll
+C:\Users\Natanael\source\repos\natanaelsantosbr\mvc-crud-cliente\Natanael.Crud\Natanael.Aplicacao\bin\Debug\Natanael.Dominio.dll
+C:\Users\Natanael\source\repos\natanaelsantosbr\mvc-crud-cliente\Natanael.Crud\Natanael.Aplicacao\bin\Debug\EntityFramework.dll
+C:\Users\Natanael\source\repos\natanaelsantosbr\mvc-crud-cliente\Natanael.Crud\Natanael.Aplicacao\bin\Debug\Infra.EF.pdb
+C:\Users\Natanael\source\repos\natanaelsantosbr\mvc-crud-cliente\Natanael.Crud\Natanael.Aplicacao\bin\Debug\Infra.EF.dll.config
+C:\Users\Natanael\source\repos\natanaelsantosbr\mvc-crud-cliente\Natanael.Crud\Natanael.Aplicacao\bin\Debug\Natanael.Dominio.pdb
+C:\Users\Natanael\source\repos\natanaelsantosbr\mvc-crud-cliente\Natanael.Crud\Natanael.Aplicacao\bin\Debug\EntityFramework.xml
+C:\Users\Natanael\source\repos\natanaelsantosbr\mvc-crud-cliente\Natanael.Crud\Natanael.Aplicacao\obj\Debug\Natanael.Aplicacao.csprojAssemblyReference.cache
+C:\Users\Natanael\source\repos\natanaelsantosbr\mvc-crud-cliente\Natanael.Crud\Natanael.Aplicacao\obj\Debug\Natanael.Aplicacao.csproj.CoreCompileInputs.cache
+C:\Users\Natanael\source\repos\natanaelsantosbr\mvc-crud-cliente\Natanael.Crud\Natanael.Aplicacao\obj\Debug\Natanael.Aplicacao.csproj.CopyComplete
+C:\Users\Natanael\source\repos\natanaelsantosbr\mvc-crud-cliente\Natanael.Crud\Natanael.Aplicacao\obj\Debug\Natanael.Aplicacao.dll
+C:\Users\Natanael\source\repos\natanaelsantosbr\mvc-crud-cliente\Natanael.Crud\Natanael.Aplicacao\obj\Debug\Natanael.Aplicacao.pdb
