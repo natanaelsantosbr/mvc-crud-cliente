@@ -13,9 +13,19 @@ namespace Natanael.Aplicacao.Clientes
     {
         private IServicoExternoDePersistencia _servicoExternoDePersistencia;
 
+        private readonly int _registrosPorPagina = 30;
         public ServicoDeGestaoDeClientes(IServicoExternoDePersistencia servicoExternoDePersistencia)
         {
             this._servicoExternoDePersistencia = servicoExternoDePersistencia;
+        }
+
+        public ModeloDeListaDeClientes BuscarClientesPorPaginacao(ModeloDeFiltroDeCliente filtro, int pagina)
+        {
+            var clientes = this._servicoExternoDePersistencia
+                .RepositorioDeClientes
+                .BuscarClientesPorPaginacao(filtro.Nome, filtro.Email, filtro.CPF, pagina, _registrosPorPagina, out int totalDeRegistros);
+
+            return new ModeloDeListaDeClientes(clientes, totalDeRegistros, filtro);
         }
 
         public string Cadastrar(ModeloDeCadastroDeCliente modelo)

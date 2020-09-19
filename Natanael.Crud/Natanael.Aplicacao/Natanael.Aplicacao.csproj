@@ -43,6 +43,9 @@
   <ItemGroup>
     <Compile Include="Clientes\IServicoDeGestaoDeClientes.cs" />
     <Compile Include="Clientes\Modelos\ModeloDeCadastroDeCliente.cs" />
+    <Compile Include="Clientes\Modelos\ModeloDeClienteDaLista.cs" />
+    <Compile Include="Clientes\Modelos\ModeloDeFiltroDeCliente.cs" />
+    <Compile Include="Clientes\Modelos\ModeloDeListaDeClientes.cs" />
     <Compile Include="Clientes\ServicoDeGestaoDeClientes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

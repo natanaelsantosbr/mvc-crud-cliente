@@ -17,9 +17,11 @@ namespace Natanael.Web.Controllers
             this._servicoDeGestaoDeClientes = servicoDeGestaoDeClientes;
         }
 
-        public ActionResult Index()
+        public ActionResult Index(ModeloDeListaDeClientes modelo)
         {
-            return View();
+            modelo = this._servicoDeGestaoDeClientes.BuscarClientesPorPaginacao(modelo.Filtro, 1);
+
+            return View(modelo);
         }
 
         [HttpGet]

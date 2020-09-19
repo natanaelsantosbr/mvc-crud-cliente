@@ -9,6 +9,8 @@ namespace Natanael.Aplicacao.Clientes
 {
     public interface IServicoDeGestaoDeClientes
     {
+        ModeloDeListaDeClientes BuscarClientesPorPaginacao(ModeloDeFiltroDeCliente filtro, int pagina);
+
         string Cadastrar(ModeloDeCadastroDeCliente modelo);
     }
 }

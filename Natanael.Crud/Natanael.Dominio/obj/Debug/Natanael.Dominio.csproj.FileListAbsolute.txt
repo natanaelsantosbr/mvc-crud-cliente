@@ -3,3 +3,4 @@ C:\Users\Natanael\source\repos\natanaelsantosbr\mvc-crud-cliente\Natanael.Crud\N
 C:\Users\Natanael\source\repos\natanaelsantosbr\mvc-crud-cliente\Natanael.Crud\Natanael.Dominio\obj\Debug\Natanael.Dominio.csproj.CoreCompileInputs.cache
 C:\Users\Natanael\source\repos\natanaelsantosbr\mvc-crud-cliente\Natanael.Crud\Natanael.Dominio\obj\Debug\Natanael.Dominio.dll
 C:\Users\Natanael\source\repos\natanaelsantosbr\mvc-crud-cliente\Natanael.Crud\Natanael.Dominio\obj\Debug\Natanael.Dominio.pdb
+C:\Users\Natanael\source\repos\natanaelsantosbr\mvc-crud-cliente\Natanael.Crud\Natanael.Dominio\obj\Debug\Natanael.Dominio.csprojAssemblyReference.cache

@@ -8,6 +8,6 @@ namespace Natanael.Dominio.Clientes
 {
     public interface IRepositorioDeClientes : IRepositorio<Cliente>
     {
-        List<Cliente> BuscarClientesAtivos();
+        List<Cliente> BuscarClientesPorPaginacao(string nome, string email, string cPF, int pagina, int registrosPorPagina, out int totalDeRegistros);
     }
 }

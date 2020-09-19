@@ -14,13 +14,23 @@ namespace Infra.EF.Repositorios
 
         }
 
-        public List<Cliente> BuscarClientesAtivos()
+        public List<Cliente> BuscarClientesPorPaginacao(string nome, string email, string cpf, int pagina, int registrosPorPagina, out int totalDeRegistros)
         {
-            var query = this._contexto.Set<Cliente>().AsQueryable();
+            var query = base._contexto.Set<Cliente>().AsQueryable();
 
-            query.Where(a => a.Ativo);
+            if (!string.IsNullOrEmpty(nome))
+                query = query.Where(a => a.Nome.Contains(nome));
 
-            return query.ToList();
+            if (!string.IsNullOrEmpty(email))
+                query = query.Where(a => a.Email.Contains(email));
+
+            if (!string.IsNullOrEmpty(cpf))
+                query = query.Where(a => a.CPF.Contains(cpf));
+
+            totalDeRegistros = query.Count();
+
+            return query.OrderByDescending(a => a.Id).Skip((pagina - 1) * registrosPorPagina)
+                .Take(registrosPorPagina).ToList();
         }
     }
 }
