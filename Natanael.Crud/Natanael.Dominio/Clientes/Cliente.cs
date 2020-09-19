@@ -13,7 +13,7 @@ namespace Natanael.Dominio.Clientes
             this.Ativo = true;
 
         }
-        public Cliente(string nome, string email, string cpf)
+        public Cliente(string nome, string email, string cpf) :this()
         {
             if (string.IsNullOrEmpty(nome))
                 throw new InvalidOperationException("Nome obrigatório");

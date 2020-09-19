@@ -1,4 +1,6 @@
 ﻿using Infra.EF;
+using Natanael.Aplicacao.Clientes.Modelos;
+using Natanael.Dominio.Clientes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,14 +18,15 @@ namespace Natanael.Aplicacao.Clientes
             this._servicoExternoDePersistencia = servicoExternoDePersistencia;
         }
 
-        public void Processar()
+        public string Cadastrar(ModeloDeCadastroDeCliente modelo)
         {
-            var listar = this._servicoExternoDePersistencia.RepositorioDeClientes.Listar();
+            var cliente = new Cliente(modelo.Nome, modelo.Email, modelo.CPF);
 
-            if(listar != null)
-            {
+            this._servicoExternoDePersistencia.RepositorioDeClientes.Inserir(cliente);
 
-            }
+            this._servicoExternoDePersistencia.Persistir();
+
+            return "Cliente cadastrado com sucesso";
         }
     }
 }

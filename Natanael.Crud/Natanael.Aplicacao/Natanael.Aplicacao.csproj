@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Clientes\IServicoDeGestaoDeClientes.cs" />
+    <Compile Include="Clientes\Modelos\ModeloDeCadastroDeCliente.cs" />
     <Compile Include="Clientes\ServicoDeGestaoDeClientes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

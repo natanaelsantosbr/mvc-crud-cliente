@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Natanael.Aplicacao.Clientes.Modelos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +9,6 @@ namespace Natanael.Aplicacao.Clientes
 {
     public interface IServicoDeGestaoDeClientes
     {
-        void Processar();
-
+        string Cadastrar(ModeloDeCadastroDeCliente modelo);
     }
 }

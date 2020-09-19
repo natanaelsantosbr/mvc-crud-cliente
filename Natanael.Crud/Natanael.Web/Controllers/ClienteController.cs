@@ -1,4 +1,5 @@
 ﻿using Natanael.Aplicacao.Clientes;
+using Natanael.Aplicacao.Clientes.Modelos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,11 +8,11 @@ using System.Web.Mvc;
 
 namespace Natanael.Web.Controllers
 {
-    public class HomeController : Controller
+    public class ClienteController : Controller
     {
         private readonly IServicoDeGestaoDeClientes _servicoDeGestaoDeClientes;
 
-        public HomeController(IServicoDeGestaoDeClientes servicoDeGestaoDeClientes)
+        public ClienteController(IServicoDeGestaoDeClientes servicoDeGestaoDeClientes)
         {
             this._servicoDeGestaoDeClientes = servicoDeGestaoDeClientes;
         }
@@ -21,18 +22,18 @@ namespace Natanael.Web.Controllers
             return View();
         }
 
-        public ActionResult About()
+        [HttpGet]
+        public ActionResult Cadastrar()
         {
-            ViewBag.Message = "Your application description page.";
-
             return View();
         }
 
-        public ActionResult Contact()
+        [HttpPost]
+        public ActionResult Cadastrar(ModeloDeCadastroDeCliente modelo)
         {
-            ViewBag.Message = "Your contact page.";
+            var retorno = this._servicoDeGestaoDeClientes.Cadastrar(modelo);
 
-            return View();
+            return RedirectToAction(nameof(Index));
         }
     }
 }
